@@ -4,6 +4,29 @@
 
 > This repository is a showcase: the README, the screenshots and the licence. The source code lives in a private repository.
 
+## Play it
+
+**[shiphappens.nadya-pribadi.workers.dev](https://shiphappens.nadya-pribadi.workers.dev)**
+
+Free, no account, nothing to install. It works on a phone or a laptop.
+
+<details>
+<summary>It does not open? Some Indonesian internet providers block <code>workers.dev</code> addresses.</summary>
+
+<br>
+
+The block happens when your provider looks the address up, not in the game itself. Looking it up with another DNS service fixes it. Any one of these works:
+
+- **Chrome, Edge, Brave:** open Settings, search for "secure DNS", turn it on and choose Cloudflare (1.1.1.1) or Google.
+- **Firefox:** open Settings, search for "DNS over HTTPS", choose Increased Protection and pick Cloudflare.
+- **Android:** Settings, Network, Private DNS, choose the provider hostname option and enter `one.one.one.one`.
+- **iPhone, iPad or Mac:** in the Wi-Fi settings, set DNS to `1.1.1.1` and `1.0.0.1`. This covers Wi-Fi only.
+- **Any phone or laptop, also on mobile data:** install the free 1.1.1.1 app from Cloudflare, or use a VPN.
+
+Then reload the page. A custom address is planned (`shiphappens.my.id`), which should avoid the problem.
+
+</details>
+
 **A late ship always costs someone money. The interesting question is who pays — and whether anyone in the room can show their working.**
 
 Every delay gets argued over: the seller points at the buyer, the buyer points at the carrier, the carrier points at the schedule, and in the end somebody pays an invoice that already went out. The rules that decide it are short. Their consequences are not.
