@@ -15,13 +15,13 @@ Free, no account, nothing to install. It works on a phone or a laptop.
 
 <br>
 
-The block happens when your provider looks the address up, not in the game itself. Looking it up with another DNS service fixes it. Any one of these works:
+The block happens when your provider looks the address up, not in the game itself. Some providers also intercept ordinary DNS, so typing `1.1.1.1` into the DNS box of the Wi-Fi settings often does not help. Use an **encrypted** DNS instead. Any one of these works:
 
 - **Chrome, Edge, Brave:** open Settings, search for "secure DNS", turn it on and choose Cloudflare (1.1.1.1) or Google.
 - **Firefox:** open Settings, search for "DNS over HTTPS", choose Increased Protection and pick Cloudflare.
-- **Android:** Settings, Network, Private DNS, choose the provider hostname option and enter `one.one.one.one`.
-- **iPhone, iPad or Mac:** in the Wi-Fi settings, set DNS to `1.1.1.1` and `1.0.0.1`. This covers Wi-Fi only.
-- **Any phone or laptop, also on mobile data:** install the free 1.1.1.1 app from Cloudflare, or use a VPN.
+- **Android:** Settings, Network, Private DNS, choose the provider hostname option and enter `dns.google` or `one.one.one.one`.
+- **iPhone, iPad or Mac (Safari follows the system DNS):** install the free 1.1.1.1 app from Cloudflare, or use a VPN.
+- **Any phone or laptop, also on mobile data:** the 1.1.1.1 app or a VPN.
 
 Then reload the page. A custom address is planned (`shiphappens.my.id`), which should avoid the problem.
 
