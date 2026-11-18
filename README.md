@@ -6,16 +6,18 @@
 
 ## Play it
 
-**[shiphappens.nadya-pribadi.workers.dev](https://shiphappens.nadya-pribadi.workers.dev)**
+**[shiphappens.my.id](https://shiphappens.my.id)**
 
 Free, no account, nothing to install. It works on a phone or a laptop.
 
 <details>
-<summary>It does not open? Some Indonesian internet providers block <code>workers.dev</code> addresses.</summary>
+<summary>It does not open? Some Indonesian internet providers block addresses at the DNS level.</summary>
 
 <br>
 
-The block happens when your provider looks the address up, not in the game itself. Some providers also intercept ordinary DNS, so typing `1.1.1.1` into the DNS box of the Wi-Fi settings often does not help. Use an **encrypted** DNS instead. Any one of these works:
+Use `shiphappens.my.id`. The older address, `shiphappens.nadya-pribadi.workers.dev`, still answers, but some providers block `workers.dev` addresses.
+
+If a page still does not open, the block happens when your provider looks the address up, not in the game itself. Some providers also intercept ordinary DNS, so typing `1.1.1.1` into the DNS box of the Wi-Fi settings often does not help. Use an **encrypted** DNS instead. Any one of these works:
 
 - **Chrome, Edge, Brave:** open Settings, search for "secure DNS", turn it on and choose Cloudflare (1.1.1.1) or Google.
 - **Firefox:** open Settings, search for "DNS over HTTPS", choose Increased Protection and pick Cloudflare.
@@ -23,7 +25,7 @@ The block happens when your provider looks the address up, not in the game itsel
 - **iPhone, iPad or Mac (Safari follows the system DNS):** install the free 1.1.1.1 app from Cloudflare, or use a VPN.
 - **Any phone or laptop, also on mobile data:** the 1.1.1.1 app or a VPN.
 
-Then reload the page. A custom address is planned (`shiphappens.my.id`), which should avoid the problem.
+Then reload the page.
 
 </details>
 
@@ -166,9 +168,9 @@ No accounts, no login, nothing about a visitor stored on a server. The only thin
 
 ## Where it stands
 
-The browser game is built and live. It has nine missions and a build-your-own-shipment mode with a route planner, events, a bill and a trip.
+The browser game is built and live at [shiphappens.my.id](https://shiphappens.my.id). It has nine missions and a build-your-own-shipment mode with a route planner, events, a bill and a trip.
 
-Human domain review, owner acceptance and real-device checks are still open. The planned public address is `shiphappens.my.id`.
+Human domain review, owner acceptance and real-device checks are still open.
 
 ## Licence
 
